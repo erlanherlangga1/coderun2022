@@ -1,0 +1,35 @@
+Jungkat Jungkit
+Deskripsi
+Terdapat n anak yang dinomori dari 0 sampai n − 1. Anak ke-i (0 ≤ i ≤ n − 1) memiliki jenis kelamin ai (0 jika laki-laki dan 1 jika perempuan) dan memiliki berat bi. Akan dipilih satu anak laki-laki dan satu anak
+perempuan diantara mereka untuk bermain jungkat-jungkit.
+
+Dijamin setidaknya ada 1 anak laki-laki dan 1 anak perempuan.
+
+Anda diminta untuk menentukan selisih berat anak laki-laki dan anak perempuan yang seminimum
+mungkin.
+
+Format Masukan (Format Input)
+Anda akan diminta untuk mengimplementasikan fungsi findMinimum(n, a, b) dengan n merupakan banyak anak, a merupakan list jenis kelamin anak, dan b merupakan list berat anak.
+
+Format Keluaran (Format Output)
+Output satu baris berisi satu bilangan bulat yang merupakan hasil dari findMinimum(n, a, b).
+
+Batasan Input
+2 ≤ n ≤ 200.000
+0 ≤ ai ≤ 1
+1 ≤ bi ≤ 1.000.000.000
+Dijamin setidaknya ada 1 anak laki-laki dan 1 anak perempuan
+Contoh
+Masukan (Input)	Keluaran (Output)
+5
+[0 , 0 , 1 , 0 , 1]
+[1 , 13 , 9 , 7 , 15]
+2
+3
+[0, 0, 1]
+[1, 2, 2]
+0
+Penjelasan
+Pada contoh 1, akan dipilih anak laki-laki yang memiliki berat badan 7 dan anak perempuan yang memiliki berat badan 9. Maka selisihnya adalah |7 − 9| = 2.
+
+Pada contoh 2, akan dipilih anak laki-laki yang memiliki berat badan 2 dan anak perempuan yang memiliki berat badan 2. Maka selisihnya adalah |2 − 2| = 0.
